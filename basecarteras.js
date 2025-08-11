@@ -7,7 +7,7 @@ export const carteras=[
         medidas: '25/35/10cm',
         caracteristicas:'Forrada',
         precio: '$24.000',
-        imagen: './src/assets/imagenes/dora2.jpg',
+        imagen: './imagenes/dora2.jpg',
         colores:['negro'],
         categoria:'Mochilas'
     },
@@ -17,7 +17,7 @@ export const carteras=[
         medidas: '32x25x20cm',
         caracteristicas:'Forrada',
         precio: '$19.000',
-        imagen: './src/assets/imagenes/eugenia2.jpg',
+        imagen: './eugenia2.jpg',
         colores:['negro'],
         categoria:'Mochilas'
     },
@@ -27,7 +27,7 @@ export const carteras=[
         medidas: '22x21x10cm',
         caracteristicas:'Forrada, bolsillo externo con cierre',
         precio: '$19.000',
-        imagen: './src/assets/imagenes/bruna2.jpg',
+        imagen: './imagenes/bruna2.jpg',
         colores:['negro','blanco','rojo','suela'],
         categoria:'Mochilas'
     },
@@ -37,7 +37,7 @@ export const carteras=[
         medidas: '32x46x10cm',
         caracteristicas:'Forrado, correas amplias sublimadas',
         precio: '$28.000',
-        imagen: './src/assets/imagenes/pufer2.jpg',
+        imagen: './imagenes/pufer2.jpg',
         colores:['plateado'],
         categoria:'Bolsos'
     },
@@ -47,7 +47,7 @@ export const carteras=[
         medidas: '32x46x10cm',
         caracteristicas:'Forrado, correas amplias sublimadas',
         precio: '$28.000',
-        imagen: './src/assets/imagenes/pufer_acqua2.jpg',
+        imagen: './imagenes/pufer_acqua2.jpg',
         colores:['aqua'],
         categoria:'Bolsos'
     },
@@ -57,7 +57,7 @@ export const carteras=[
         medidas: '39x29x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela matelasse',
         precio: '$22.000',
-        imagen: './src/assets/imagenes/nuria_negro2.jpg',
+        imagen: './imagenes/nuria_negro2.jpg',
         colores:['negro'],
         categoria:'Carteras'
     },
@@ -67,7 +67,7 @@ export const carteras=[
         medidas: '32x32x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela impermeable',
         precio: '$24.000',
-        imagen: './src/assets/imagenes/matilde2.jpg',
+        imagen: './imagenes/matilde2.jpg',
         colores:['maiz'],
         categoria:'Carteras'
     },
@@ -77,7 +77,7 @@ export const carteras=[
         medidas: '32x32x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela impermeable',
         precio: '$24.000',
-        imagen: './src/assets/imagenes/matilde_rosado2.jpg',
+        imagen: './imagenes/matilde_rosado2.jpg',
         colores:['rosado'],
         categoria:'Carteras'
     },
@@ -87,7 +87,7 @@ export const carteras=[
         medidas: '32x32x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela impermeable',
         precio: '$24.000',
-        imagen: './src/assets/imagenes/matilde_azul2.jpg',
+        imagen: './imagenes/matilde_azul2.jpg',
         colores:['azul'],
         categoria:'Carteras'
     },
@@ -97,7 +97,7 @@ export const carteras=[
         medidas: '39x29x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela matelasse',
         precio: '$22.000',
-        imagen: './src/assets/imagenes/nuria_suela2.jpg',
+        imagen: './imagenes/nuria_suela2.jpg',
         colores:['suela'],
         categoria:'Carteras'
     },
@@ -107,7 +107,7 @@ export const carteras=[
         medidas: '39x29x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela matelasse',
         precio: '$22.000',
-        imagen: './src/assets/imagenes/nuria_rosa2.jpg',
+        imagen: './imagenes/nuria_rosa2.jpg',
         colores:['rosa'],
         categoria:'Carteras'
     },
@@ -117,7 +117,7 @@ export const carteras=[
         medidas: '',
         caracteristicas:'',
         precio: '$27.000',
-        imagen: './src/assets/imagenes/felipa.jpg',
+        imagen: './imagenes/felipa.jpg',
         colores:['rojo'],
         categoria:'Carteras'
     },
@@ -127,10 +127,11 @@ export const carteras=[
         medidas: '44x34x9cm',
         caracteristicas:'Bolso confeccionado en cordura,bolsillo interno y externo, lavable a mano',
         precio: '$19.000',
-        imagen: './src/assets/imagenes/stefi2.jpg',
+        imagen: './imagenes/stefi2.jpg',
         colores:['rojo'],
         categoria:'Bolsos'
     }
 
 ];
+
 comparaid();
