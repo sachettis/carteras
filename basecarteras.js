@@ -17,7 +17,7 @@ export const carteras=[
         medidas: '32x25x20cm',
         caracteristicas:'Forrada',
         precio: '$19.000',
-        imagen: './eugenia2.jpg',
+        imagen: './imagenes/eugenia2.jpg',
         colores:['negro'],
         categoria:'Mochilas'
     },
@@ -135,3 +135,4 @@ export const carteras=[
 ];
 
 comparaid();
+
