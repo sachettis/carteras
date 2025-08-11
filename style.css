@@ -1,0 +1,418 @@
+:root{
+    --p-color:#D9A299;
+    --s-color:#DCC5B2;
+    --t-color:#F0E4D3;
+    --q-color:#FAF7F3;
+}
+body{
+    margin:0;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: sticky;
+    top:0;
+    left:0;
+}
+.carrousel-container{
+    width: 100%;
+    height: 35px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: var(--p-color);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+.carrousel-container > a{
+    /*scroll-snap-align: start;*/
+    width: 100%;
+    margin: 0;
+    text-decoration: none;
+    color:var(--t-color);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.header-info{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+.header-img{
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    object-position: center;
+}
+.header-info a{
+    text-decoration: none;
+}
+.header-info svg{
+    width: 24px;
+    height: 24px;
+    color:var(--p-color);
+    margin: 0 0.3rem;
+    
+}
+.menu-container{
+    width: 100%;
+    height: 30px;
+    background-color: var(--p-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-container > a{
+    text-decoration: none;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--t-color);
+}
+.presentation-container{
+    width: 100%;
+    height: auto;
+}
+
+.presentation-prod{
+    display: none;
+}
+.principal-photo{
+    width: 100%;
+    height: 200px;
+    background-image: url('./imagenes/freepik-simple-flat-beautiful-boutique-youtube-banner-20241223225404DmW2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.phrase{
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    
+}
+.phrase-p{
+    margin: 1rem;
+}
+.presentation-main img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--s-color);
+}
+.presentation-main h3{
+    text-align: center;
+}
+.presentation-main section{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.presentation-item{
+    text-align: center;
+}
+.ham-btn{
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+}
+.product-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.prod-figure-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* border: thick solid red; */
+}
+.prod-img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+.precio{
+    font-size: 1.2rem;
+    padding: 1rem;
+    color:var(--p-color)
+}
+.btn-ver{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: var(--p-color);
+    cursor: pointer;
+    color:white;
+}
+.lateral-menu-container{
+    position: fixed;
+    top:174px;
+    left:0;
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    z-index: 200;
+    display: none;
+}
+.lateral-menu-visible{
+    display: block;
+}
+.lateral-menu-container > div{
+    font-size: 1.4rem;
+    text-decoration: underline;
+    font-weight: 900;
+    color:var(--p-color);
+    padding: 1rem;
+    cursor: pointer;
+}
+.lateral-img{
+    width: 100px;
+    height: 80px;
+    margin-top: 3rem;
+}
+.modal-container{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    z-index: 500;
+    background-color: rgba(255, 255, 255, 0.9);
+    color:var(--p-color);
+    font-size: 1.2rem;
+    /* border: thick solid var(--p-color); */
+}
+
+.modal-container > h2{
+    margin: 0.4rem;
+}
+.color-list{
+    display: flex;
+    justify-content: center;
+}
+.btnclose-container{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 0;
+    margin-top: 0.5rem;
+}
+.close-modal{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border: thin solid var(--p-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 1rem;
+
+}
+.modal-container figcaption{
+    font-size: 1.2rem;
+    color: black;
+    padding: 0.2rem;
+    text-align: start;
+}
+.modal-img{
+    width: 200px;
+    height: 200px;
+}
+.pedir-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.pedir{
+    width: 160px;
+    height: 90px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border: thick solid green;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: var(--s-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.footer > p{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    color: white;
+    border-bottom: thick solid var(--t-color);
+}
+@media screen and (min-width:30em){
+    .principal-photo{
+        width: 100%;
+        height: 400px;
+    }
+    .presentation-item img{
+        width: 300px;
+        height: 300px;
+    }
+    .presentation-main h3{
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+    .presentation-main{
+        margin-bottom: 2rem;
+    }
+    .lateral-menu-visible{
+        width: 50%;
+    }
+    .modal-container{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .inner-modal{
+        width: 40%;
+        height: auto;
+        
+    }
+    
+}   
+@media screen and (min-width:48em){
+    .principal-photo{
+        width: 100%;
+        height: 500px;
+    }
+    .presentation-item section{
+        display: block;
+        width: 50%;
+        height: 300px;
+        margin: 0 1rem;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        font-style: italic;
+        padding: 3rem;
+        font-size: 1.4rem;  
+    }
+    .presentation-prod{
+        background-color: var(--s-color);
+       color:white;
+        
+    }
+    
+    .presentation-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .presentation-item{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .presentation-item > section{
+        width: 50%;
+    }
+    .hamburger{
+        display: none;
+    }
+    
+    
+    .cat-title{
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        margin: 1.5rem 0;
+    }
+    .prod-figure-container{
+        width: 400px;
+        height: 420px;
+        margin-bottom: 2.5rem;
+        padding-bottom: 1rem;
+    }
+    .product-container{
+        display: flex;
+    
+    }
+    .lateral-menu-container{
+        width: 15%;
+        height: 100vh;
+        display: block;
+        position: fixed;
+        top: 170px;
+        left: 0;
+        
+    }
+    .prod-list{
+        width: 100%;
+        height: auto;
+        margin-left: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .prod-img{
+        width: 310px;
+        height: 310px;
+        
+    }
+    .btn-ver{
+        width: 180px;
+        height: auto;
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (min-width:62em){
+    
+    .principal-photo{
+        width: 100%;
+        height: 800px;
+    }
+    .menu-container{
+        height: 45px;
+    }
+    .menu-container > a{
+        font-size: 1.5rem;
+    }
+    .phrase-p{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    
+    
+}

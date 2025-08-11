@@ -1,2 +1,0 @@
-# carteras
-pagina sobre carteas
