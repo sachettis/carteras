@@ -48,7 +48,7 @@ export function Menuproductos(cate){
     return $productossection;
     }else{
         let $noprod=document.createElement('h3');
-        $noprod.textContent='No hay producsots que mostrar'
+        $noprod.textContent='No hay productos que mostrar'
         return $noprod
     }
 }
@@ -83,4 +83,5 @@ function crearprods(el){
         $prodarticle.appendChild($fragmento)
            $prodarticle.appendChild($burguerbtn)
         $productossection.appendChild($prodarticle)
+
 }
