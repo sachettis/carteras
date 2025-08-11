@@ -137,7 +137,7 @@ export const carteras=[
         medidas: '44x34x9cm',
         caracteristicas:'Bolso confeccionado en tela y piel',
         precio: '$34.000',
-        imagen: './imagenes/cartera de prueba.jpg',
+        imagen: './imagenes/carteradeprueba.jpg',
         colores:['rojo', 'pastel','negro'],
         categoria:'Bolsos'
     }
@@ -145,5 +145,6 @@ export const carteras=[
 ];
 
 comparaid();
+
 
 
