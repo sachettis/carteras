@@ -10,7 +10,7 @@ export const carteras=[
         imagen: './imagenes/dora2.jpg',
         colores:['negro','suela'],
         categoria:'Mochilas'
-    },
+    },    
     {
         id:2,
         nombre:'Mochila Eugenia',
@@ -53,72 +53,72 @@ export const carteras=[
     },
     {
         id:6,
-        nombre:'Cartera Nuria negro',
+        nombre:'Cartera Nuria negra NO DISPONIBLE ',
         medidas: '39x29x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela matelasse',
-        precio: '$22.000',
+        precio: '$',
         imagen: './imagenes/nuria_negro2.jpg',
         colores:['negro'],
         categoria:'Carteras'
     },
     {
         id:7,
-        nombre:'Cartera Matilde color maiz y bolsillo negro',
+        nombre:'Cartera Matilde color maiz y bolsillo negro NO DISPONIBLE',
         medidas: '32x32x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela impermeable',
-        precio: '$24.000',
+        precio: '',
         imagen: './imagenes/matilde2.jpg',
         colores:['maiz'],
         categoria:'Carteras'
     },
     {
         id:8,
-        nombre:'Cartera Matilde color rosado y bolsillo negro',
+        nombre:'Cartera Matilde color rosado y bolsillo negro NO DISPONIBLE ',
         medidas: '32x32x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela impermeable',
-        precio: '$24.000',
+        precio: '',
         imagen: './imagenes/matilde_rosado2.jpg',
         colores:['rosado'],
         categoria:'Carteras'
     },
     {
         id:9,
-        nombre:'Cartera Matilde color azul y bolsillo negro',
+        nombre:'Cartera Matilde color azul y bolsillo negro NO DISPONIBLE',
         medidas: '32x32x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela impermeable',
-        precio: '$24.000',
+        precio: '',
         imagen: './imagenes/matilde_azul2.jpg',
         colores:['azul'],
         categoria:'Carteras'
     },
     {
         id:10,
-        nombre:'Cartera Nuria suela',
+        nombre:'Cartera Nuria suela NO DISPONIBLE',
         medidas: '39x29x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela matelasse',
-        precio: '$22.000',
+        precio: '',
         imagen: './imagenes/nuria_suela2.jpg',
         colores:['suela'],
         categoria:'Carteras'
     },
     {
         id:11,
-        nombre:'Cartera Nuria rosa',
+        nombre:'Cartera Nuria rosa NO DISPONIBLE',
         medidas: '39x29x10cm',
         caracteristicas:'Forrada, cierre interno y externo, tela matelasse',
-        precio: '$22.000',
+        precio: '',
         imagen: './imagenes/nuria_rosa2.jpg',
         colores:['rosa'],
         categoria:'Carteras'
     },
     {
         id:12,
-        nombre:'Cartera Felipa',
+        nombre:'Cartera Felipa negra con fantasia',
         medidas: '',
-        caracteristicas:'',
-        precio: '$27.000',
+        caracteristicas:'Super comoda',
+        precio: '$26.000',
         imagen: './imagenes/felipa.jpg',
-        colores:['rojo'],
+        colores:['negro'],
         categoria:'Carteras'
     },
     {
@@ -126,7 +126,7 @@ export const carteras=[
         nombre:'Bolso Stefi rojo',
         medidas: '44x34x9cm',
         caracteristicas:'Bolso confeccionado en cordura,bolsillo interno y externo, lavable a mano',
-        precio: '$19.000',
+        precio: '$18.000',
         imagen: './imagenes/stefi2.jpg',
         colores:['rojo'],
         categoria:'Bolsos'
@@ -145,6 +145,7 @@ export const carteras=[
 ];
 
 comparaid();
+
 
 
 
