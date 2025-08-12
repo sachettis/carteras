@@ -5,48 +5,48 @@ export const carteras=[
         id:1,
         nombre:'Mochila Dora',
         medidas: '25/35/10cm',
-        caracteristicas:'Forrada',
-        precio: '$24.000',
+        caracteristicas:['Material:Pu','Forrada'],
+        precio: '$26.000',
         imagen: './imagenes/dora2.jpg',
-        colores:['negro'],
+        colores:['negro','suela'],
         categoria:'Mochilas'
     },
     {
         id:2,
         nombre:'Mochila Eugenia',
         medidas: '32x25x20cm',
-        caracteristicas:'Forrada',
-        precio: '$19.000',
+        caracteristicas:['Material:Pu','Forrada'],
+        precio: '$21.000',
         imagen: './imagenes/eugenia2.jpg',
-        colores:['negro'],
+        colores:['negro','suela','animalprint'],
         categoria:'Mochilas'
     },
     {
         id:3,
         nombre:'Mochila Bruna',
         medidas: '22x21x10cm',
-        caracteristicas:'Forrada, bolsillo externo con cierre',
-        precio: '$19.000',
+        caracteristicas:['Material:Pu','Forrada,'bolsillo externo con cierre'],
+        precio: '$20.000',
         imagen: './imagenes/bruna2.jpg',
-        colores:['negro','blanco','rojo','suela'],
+        colores:['negro','lila','rosa','suela'],
         categoria:'Mochilas'
     },
     {
         id:4,
-        nombre:'Bolso Puffer plateado cebra',
+        nombre:'Bolso Puffer plateado',
         medidas: '32x46x10cm',
-        caracteristicas:'Forrado, correas amplias sublimadas',
-        precio: '$28.000',
+        caracteristicas:'Forrado, correas amplias sublimadas en motivo segun stock',
+        precio: '$30.000',
         imagen: './imagenes/pufer2.jpg',
         colores:['plateado'],
         categoria:'Bolsos'
     },
     {
         id:5,
-        nombre:'Bolso Pufer aqua paris',
+        nombre:'Bolso Pufer aqua paris NO DISPONIBLE',
         medidas: '32x46x10cm',
-        caracteristicas:'Forrado, correas amplias sublimadas',
-        precio: '$28.000',
+        caracteristicas:'Forrado, correas amplias sublimadas en motivo segun stock',
+        precio: '$30.000',
         imagen: './imagenes/pufer_acqua2.jpg',
         colores:['aqua'],
         categoria:'Bolsos'
@@ -145,6 +145,7 @@ export const carteras=[
 ];
 
 comparaid();
+
 
 
 
