@@ -5,7 +5,7 @@ export const carteras=[
         id:1,
         nombre:'Mochila Dora',
         medidas: '25/35/10cm',
-        caracteristicas:['Material:Pu','Forrada'],
+        caracteristicas:'Material:Pu Forrada',
         precio: '$26.000',
         imagen: './imagenes/dora2.jpg',
         colores:['negro','suela'],
@@ -15,7 +15,7 @@ export const carteras=[
         id:2,
         nombre:'Mochila Eugenia',
         medidas: '32x25x20cm',
-        caracteristicas:['Material:Pu','Forrada'],
+        caracteristicas:'Material:Pu Forrada',
         precio: '$21.000',
         imagen: './imagenes/eugenia2.jpg',
         colores:['negro','suela','animalprint'],
@@ -25,7 +25,7 @@ export const carteras=[
         id:3,
         nombre:'Mochila Bruna',
         medidas: '22x21x10cm',
-        caracteristicas:['Material:Pu','Forrada,'bolsillo externo con cierre'],
+        caracteristicas:'Material:Pu,Forrada bolsillo externo con cierre',
         precio: '$20.000',
         imagen: './imagenes/bruna2.jpg',
         colores:['negro','lila','rosa','suela'],
@@ -145,6 +145,7 @@ export const carteras=[
 ];
 
 comparaid();
+
 
 
 
