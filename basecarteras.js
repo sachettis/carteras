@@ -130,21 +130,12 @@ export const carteras=[
         imagen: './imagenes/stefi2.jpg',
         colores:['rojo'],
         categoria:'Bolsos'
-    },
-     {
-        id:14,
-        nombre:'Bolso de prueba',
-        medidas: '44x34x9cm',
-        caracteristicas:'Bolso confeccionado en tela y piel',
-        precio: '$34.000',
-        imagen: './imagenes/carteradeprueba.jpg',
-        colores:['rojo', 'pastel','negro'],
-        categoria:'Bolsos'
     }
 
 ];
 
 comparaid();
+
 
 
 
