@@ -23,18 +23,47 @@ body{
     text-align: center;
     background-color: var(--p-color);
     padding: 0;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,100%);
+    align-items: start;
+    overflow-x: hidden;
+}
+.carrousel-1,
+.carrousel-2,
+.carrousel-3{
+    width: 100%;
+    height: 25px;
+    animation: movecarrousel 15s linear infinite;
     
 }
-.carrousel-container > a{
+.pedir-container{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+@keyframes movecarrousel{
+    0% , 25%{
+        transform: translateX(0%);
+    }
+    33% , 58%{
+        transform: translateX(-100%);
+    }
+    66% , 91%{
+        transform: translateX(-200%);
+    } 
+    100%{
+        transform: translateX(0%);
+    }
+}
+.pedir-link{
     /*scroll-snap-align: start;*/
     width: 100%;
     margin: 0;
     text-decoration: none;
     color:var(--t-color);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     cursor: pointer;
+    padding-top:0.4rem;
 }
 .header-info{
     width: 100%;
